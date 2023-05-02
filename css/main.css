@@ -6,9 +6,10 @@
     width: 400px;
     height: 650px;
     margin: 78px auto 0;
-    border: 10px solid #fff;
-    background: #fff;
-    border-radius: 90px;
+    /* border: 10px solid #fff; */
+    background: rgb(45,253,214);
+background: linear-gradient(0deg, rgba(45,253,214,1) 0%, rgba(38,34,195,1) 50%, rgba(45,253,214,1) 100%);
+    border-radius: 50px;
 }
 
 .cover {
@@ -53,25 +54,29 @@
 }
 
 .btnWrap .prevBtn {
-    background: url("./images/prev-44.png");
-    top: 103px;
-}
-
-.btnWrap .nextBtn {
-    background: url("./images/prev-44.png");
-    right: 0px;
+    background: url("../images/next.png");
     top: 103px;
     transform: rotate(180deg);
 }
 
-.btnWrap .pauseBtn {
-    background: url("./images/pause.png");
+.btnWrap .nextBtn {
+    background: url("../images/next.png");
+    right: 0px;
     top: 103px;
-    left: 103px;
+}
+
+.btnWrap .pauseBtn {
+    background: url("../images/pause.png");
+    width: 66px;
+    height: 66px;
+    top: 92px;
+    left: 92px;
 }
 
 .btnWrap .playBtn {
-    background: url("./images/play.png");
-    top: 103px;
-    left: 103px;
+    background: url("../images/play.png");
+    width: 66px;
+    height: 66px;
+    top: 92px;
+    left: 92px;
 }
